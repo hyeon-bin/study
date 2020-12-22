@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>끝말잇기</title>
+</head>
+<body>
+  <script>
+  //while문으로 만들기
+  /*
+    var word = "제로초";
+    while(true) {
+      var answer = prompt(word);
+      if(word[word.length -1] === answer[0]) {
+        //맞음
+        alert('딩동댕');
+        word = answer;
+      }else{
+        //틀림
+        alert('땡땡땡! 다시 입력하세요.');
+      }
+    }
+  */
+
+  //for문으로 만들기
+   for(var word = "제로초"; true;) {
+     var answer = prompt(word);
+     if(word[word.length -1] === answer[0]) {
+       //맞음
+       alert('딩동댕');
+       word = answer;
+     }else{
+       //틀림
+       alert('땡땡땡! 다시 입력하세요.');
+     }
+   }
+  </script>
+</body>
+</html>
